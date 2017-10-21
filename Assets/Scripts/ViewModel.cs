@@ -34,4 +34,16 @@ public class ViewModel : MonoBehaviour {
         //change scene when pressed
         SceneManager.LoadScene("Main Menu");
     }
+
+    public void buttonCityStory()
+    {
+        //change scene when pressed
+        SceneManager.LoadScene("CityStory4");
+    }
+
+    public void hintMain()
+    {
+        //change scene when pressed
+        SceneManager.LoadScene("Hint");
+    }
 }
