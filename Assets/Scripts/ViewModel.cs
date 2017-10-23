@@ -36,6 +36,12 @@ public class ViewModel : MonoBehaviour {
         SceneManager.LoadScene("Main Menu");
     }
 
+    public void buttonShop()
+    {
+        //change scene when pressed
+        SceneManager.LoadScene("Shop");
+    }
+
     public void buttonCredits()
     {
         //change scene when pressed
