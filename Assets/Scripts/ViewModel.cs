@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.EventSystems;
 
 public class ViewModel : MonoBehaviour {
 
@@ -19,19 +20,31 @@ public class ViewModel : MonoBehaviour {
 
     public void buttonCorrectAnswer()
     {
-        string buttonName = this.name;
+        string buttonName = EventSystem.current.currentSelectedGameObject.name;
         SceneManager.LoadScene(buttonName);
     }
 
     public void buttonLose()
     {
         //change scene when pressed
-        SceneManager.LoadScene("End1");
+        SceneManager.LoadScene("LosingScreen");
     }
 
     public void buttonMain()
     {
         //change scene when pressed
         SceneManager.LoadScene("Main Menu");
+    }
+
+    public void buttonShop()
+    {
+        //change scene when pressed
+        SceneManager.LoadScene("Shop");
+    }
+
+    public void buttonCredits()
+    {
+        //change scene when pressed
+        SceneManager.LoadScene("Credits");
     }
 }
