@@ -2,6 +2,8 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
+using UnityEngine.EventSystems;
 
 public class DialogueManager : MonoBehaviour
 {
@@ -60,7 +62,9 @@ public class DialogueManager : MonoBehaviour
 
     void EndDialogue()
     {
+        string buttonName = EventSystem.current.currentSelectedGameObject.name;
         animator.SetBool("IsOpen", false);
+        SceneManager.LoadScene(buttonName);
     }
 
 }
