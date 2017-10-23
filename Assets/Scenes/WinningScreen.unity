@@ -555,7 +555,11 @@ RectTransform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1259060000}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+<<<<<<< HEAD
+  m_LocalPosition: {x: 560.5, y: 319, z: 0}
+=======
   m_LocalPosition: {x: 491, y: 319, z: 0}
+>>>>>>> 41ff07c2e8976907963926bbf3e1e6e8aeeed0e9
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1619854718}
@@ -697,7 +701,11 @@ MonoBehaviour:
     sentences:
     - Hey good job on the delievery! I hope everything went smoothly.
     - As promised, you will be rewarded.
+<<<<<<< HEAD
+    - Come back to the shop and I will give you your paycheck.
+=======
     - Come back to the shop and I will give you your paychek.
+>>>>>>> 41ff07c2e8976907963926bbf3e1e6e8aeeed0e9
 --- !u!114 &1584941466
 MonoBehaviour:
   m_ObjectHideFlags: 0
