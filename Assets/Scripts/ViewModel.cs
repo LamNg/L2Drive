@@ -30,6 +30,12 @@ public class ViewModel : MonoBehaviour {
         SceneManager.LoadScene("LosingScreen");
     }
 
+    public void buttonLose2()
+    {
+        //change scene when pressed
+        SceneManager.LoadScene("LosingScreen2");
+    }
+
     public void buttonMain()
     {
         //change scene when pressed
