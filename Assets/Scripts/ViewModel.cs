@@ -6,6 +6,8 @@ using UnityEngine.EventSystems;
 
 public class ViewModel : MonoBehaviour {
 
+    string hi = "Hi";
+
     //when start button is pressed
     public void buttonStartGame() {
         //change scene when pressed
@@ -53,4 +55,6 @@ public class ViewModel : MonoBehaviour {
         //change scene when pressed
         SceneManager.LoadScene("Credits");
     }
+
+
 }
