@@ -36,7 +36,8 @@ public class ShopManager : MonoBehaviour {
     //temp add money function to test
     public void addMoney()
     {
-        goldAmount += 5;
+        goldAmount += 20;
+        PlayerPrefs.SetInt("GoldAmount", goldAmount);
         Update();
     }
 
