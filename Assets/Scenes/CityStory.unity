@@ -405,7 +405,7 @@ RectTransform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 181957337}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 640, y: 360, z: 0}
+  m_LocalPosition: {x: 201.5, y: 311, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1981625818}
@@ -731,7 +731,7 @@ GameObject:
   - component: {fileID: 1183227596}
   - component: {fileID: 1183227595}
   m_Layer: 5
-  m_Name: Image (1)
+  m_Name: Textbox
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -800,7 +800,7 @@ GameObject:
   - component: {fileID: 1330030513}
   - component: {fileID: 1330030512}
   m_Layer: 5
-  m_Name: Image (2)
+  m_Name: YieldSign
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1551,7 +1551,7 @@ GameObject:
   - component: {fileID: 1899267555}
   - component: {fileID: 1899267554}
   m_Layer: 5
-  m_Name: Image (4)
+  m_Name: Hints
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
