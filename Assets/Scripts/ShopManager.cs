@@ -24,7 +24,7 @@ public class ShopManager : MonoBehaviour {
 
     void Update()
     {
-        goldAmountText.text = "Gold: " + goldAmount.ToString() + "$";
+        goldAmountText.text = "Gold: " + goldAmount.ToString();
         isFerrariSold = PlayerPrefs.GetInt("IsFerrariSold");
 
         if (goldAmount >= 5 && isFerrariSold == 0)
