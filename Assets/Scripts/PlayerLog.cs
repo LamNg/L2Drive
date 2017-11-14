@@ -8,34 +8,40 @@ public class PlayerLog : MonoBehaviour {
 
     public static int StartFirst;
     public static int ShopFirst;
-    public static int CreditFirst;
+    public static int CreditsFirst;
 
-    bool firstRun = true;
+    bool firstRun = false;
 
 	// Use this for initialization
 	void Start () {
-        Debug.Log(StartFirst);
-        Debug.Log(ShopFirst);
-        Debug.Log(CreditFirst);
-        Debug.Log(firstRun);
-
+        StartFirst = PlayerPrefs.GetInt("StartFirst");
+        ShopFirst = PlayerPrefs.GetInt("ShopFirst");
+        CreditsFirst = PlayerPrefs.GetInt("CreditsFirst");
+    }
+    
+    void Awake()
+    {
+        firstRun = true;
     }
 
-    public void countChoice()
+    public void countChoice(string Button)
     {
         if (firstRun)
         {
-            if (this.name == "Start")
+            if (Button == "Start")
             {
                 StartFirst += 1;
+                PlayerPrefs.SetInt("StartFirst", StartFirst);
             }
-            else if (this.name == "Shop")
+            else if (Button == "Shop")
             {
                 ShopFirst += 1;
+                PlayerPrefs.SetInt("ShopFirst", ShopFirst);
             }
-            else if (this.name == "Credits")
+            else if (Button == "Credits")
             {
-                CreditFirst += 1;
+                CreditsFirst += 1;
+                PlayerPrefs.SetInt("CreditsFirst", CreditsFirst);
             }
             firstRun = false;
             SplashScreenFirstChoiceWrite();
@@ -46,17 +52,12 @@ public class PlayerLog : MonoBehaviour {
 
     public void SplashScreenFirstChoiceWrite()
     {
-        string text = "Player Selected First: \nStart: " + StartFirst+ " \nShop: " + ShopFirst + "\nCredits: " + CreditFirst;
-        TextWriter textWriter = new StreamWriter(@"SplashScreenDecision.txt", true);
+        string text = "Player Selected First: \nStart: " + StartFirst+ " \nShop: " + ShopFirst + "\nCredits: " + CreditsFirst;
+        TextWriter textWriter = new StreamWriter(@"SplashScreenDecision.txt", false);
         textWriter.WriteLine(text);
         textWriter.Close();
-        print(text);
     }
 
-    public void Update()
-    {
-
-    }
 
 
 
