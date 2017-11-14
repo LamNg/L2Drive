@@ -25,18 +25,18 @@ public class ViewModel : MonoBehaviour {
         timeStamp();
     }
 
-    public void buttonStorySelect()
+    public void buttonRouteSelect()
     {
-        string buttonName = this.name;
-        SceneManager.LoadScene(buttonName);
+        SceneManager.LoadScene(this.name);
         timeStamp();
     }
 
-    public void buttonCorrectAnswer()
+    public void buttonStorySelect()
     {
-        string buttonName = EventSystem.current.currentSelectedGameObject.name;
-        SceneManager.LoadScene(buttonName);
+        //string buttonName = this.name;
+        SceneManager.LoadScene(this.name);
         timeStamp();
+        answerStamp("Correct Answer");
     }
 
     public void buttonLose()
@@ -44,6 +44,7 @@ public class ViewModel : MonoBehaviour {
         //change scene when pressed
         SceneManager.LoadScene("LosingScreen");
         timeStamp();
+        answerStamp(this.name);
     }
 
     public void buttonLose2()
@@ -51,6 +52,7 @@ public class ViewModel : MonoBehaviour {
         //change scene when pressed
         SceneManager.LoadScene("LosingScreen2");
         timeStamp();
+        answerStamp(this.name);
     }
 
     public void buttonMain()
@@ -77,8 +79,6 @@ public class ViewModel : MonoBehaviour {
     public void timeStamp()
     {
         string text = SceneManager.GetActiveScene().name + " took " + stopwatch.Elapsed + " seconds";
-        //System.IO.File.WriteAllText(@"C:\Users\Russell\Documents\L2Drive\textfile.txt", text);
-        //C:\Users\Russell\Documents\L2Drive
         TextWriter textWriter = new StreamWriter(@"textfile.txt", true);
         textWriter.WriteLine(text);
         textWriter.Close();
@@ -86,5 +86,11 @@ public class ViewModel : MonoBehaviour {
         stopwatch.Stop();
     }
 
+    public void answerStamp(string button)
+    {
+        TextWriter textWriter = new StreamWriter(@"textfile.txt", true);
+        textWriter.WriteLine("User chose: " + button);
+        textWriter.Close();
+    }
 
 }
