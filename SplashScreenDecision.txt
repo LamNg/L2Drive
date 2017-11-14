@@ -1,4 +1,0 @@
-Player Selected First: 
-Start: 0 
-Shop: 1
-Credits: 2
