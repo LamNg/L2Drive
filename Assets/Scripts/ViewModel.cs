@@ -1,4 +1,4 @@
-﻿using System.Collections;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
@@ -8,6 +8,7 @@ using System.Diagnostics;
 using System.IO;
 
 public class ViewModel : MonoBehaviour {
+
 
     Stopwatch stopwatch = new Stopwatch();
 
@@ -84,4 +85,6 @@ public class ViewModel : MonoBehaviour {
         print(text);
         stopwatch.Stop();
     }
+
+
 }
