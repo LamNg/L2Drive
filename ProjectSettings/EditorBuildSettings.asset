@@ -33,8 +33,17 @@ EditorBuildSettings:
     path: Assets/Scenes/CityStory6.unity
     guid: 1803fb2be4e1c0048a7e9644b06462b7
   - enabled: 1
-    path: Assets/Scenes/Hint.unity
-    guid: 66775f5d5347bd049aa9f0745a91719a
+    path: Assets/Scenes/LosingScreen.unity
+    guid: 85766fba777da244b95e99bced1d31ca
   - enabled: 1
-    path: Assets/Scenes/End1.unity
-    guid: 7438348522b59be4ab51d3e669053104
+    path: Assets/Scenes/LosingScreen2.unity
+    guid: 61f64a3a9810e504791260b84c38dfbf
+  - enabled: 1
+    path: Assets/Scenes/WinningScreen.unity
+    guid: 7c562dc7317210641a536b8546e06c22
+  - enabled: 1
+    path: Assets/Scenes/Credits.unity
+    guid: 11038febe24bfbc479db15d321abff66
+  - enabled: 1
+    path: Assets/Scenes/Shop.unity
+    guid: fd6ddb8d01380e340b33dbeee312f5b5
