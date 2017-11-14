@@ -1,0 +1,8 @@
+Main Menu took 00:00:01.5281385 seconds
+StorySelect took 00:00:01.1610256 seconds
+CityStory took 00:00:02.7822441 seconds
+CityStory2 took 00:00:01.1868335 seconds
+CityStory3 took 00:00:05.9262033 seconds
+CityStory4 took 00:00:02.7283738 seconds
+CityStory5 took 00:00:01.0709777 seconds
+CityStory6 took 00:00:01.1704137 seconds

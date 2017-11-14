@@ -5,6 +5,7 @@ using UnityEngine.SceneManagement;
 using UnityEngine.EventSystems;
 
 using System.Diagnostics;
+using System.IO;
 
 public class ViewModel : MonoBehaviour {
 
@@ -74,7 +75,13 @@ public class ViewModel : MonoBehaviour {
 
     public void timeStamp()
     {
-        print(SceneManager.GetActiveScene().name + " took " + stopwatch.Elapsed + " seconds");
+        string text = SceneManager.GetActiveScene().name + " took " + stopwatch.Elapsed + " seconds";
+        //System.IO.File.WriteAllText(@"C:\Users\Russell\Documents\L2Drive\textfile.txt", text);
+        //C:\Users\Russell\Documents\L2Drive
+        TextWriter textWriter = new StreamWriter(@"textfile.txt", true);
+        textWriter.WriteLine(text);
+        textWriter.Close();
+        print(text);
         stopwatch.Stop();
     }
 }
