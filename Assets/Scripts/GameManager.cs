@@ -11,7 +11,11 @@ public class GameManager : MonoBehaviour
     public Text goldText;
     public static int goldAmount;
     int isFerrariSold;
+    int isFerrariBlueSold;
+    int isFerrariYellowSold;
     public GameObject ferrari;
+    public GameObject ferrariBlue;
+    public GameObject ferrariYellow;
 
 
     // Use this for initialization
@@ -20,6 +24,9 @@ public class GameManager : MonoBehaviour
         goldAmount = PlayerPrefs.GetInt("GoldAmount");
         //goldAmount = 60;
         isFerrariSold = PlayerPrefs.GetInt("IsFerrariSold");
+        isFerrariBlueSold = PlayerPrefs.GetInt("IsFerrariBlueSold");
+        isFerrariYellowSold = PlayerPrefs.GetInt("IsFerrariYellowSold");
+
 
         //if (isFerrariSold == 1)
         //    ferrari.SetActive(true);
@@ -38,8 +45,8 @@ public class GameManager : MonoBehaviour
     //public void AddMoney()
     //{
     //    goldAmount += 5;
-   //     Update();
-   // }
+    //     Update();
+    // }
 
 
     //set player gold back to 0 for testing
