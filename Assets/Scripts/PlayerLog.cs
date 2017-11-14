@@ -6,18 +6,18 @@ using System.IO;
 
 public class PlayerLog : MonoBehaviour {
 
-    public int StartFirst;
-    public int ShopFirst;
-    public int CreditFirst;
+    public static int StartFirst;
+    public static int ShopFirst;
+    public static int CreditFirst;
 
-    bool firstRun;
+    bool firstRun = true;
 
-    public int value = 5;
 	// Use this for initialization
 	void Start () {
-        bool firstRun = true;
-        Debug.Log(value);
-
+        Debug.Log(StartFirst);
+        Debug.Log(ShopFirst);
+        Debug.Log(CreditFirst);
+        Debug.Log(firstRun);
 
     }
 
@@ -38,6 +38,8 @@ public class PlayerLog : MonoBehaviour {
                 CreditFirst += 1;
             }
             firstRun = false;
+            SplashScreenFirstChoiceWrite();
+            Debug.Log(firstRun);
         }
 
     }
@@ -53,9 +55,7 @@ public class PlayerLog : MonoBehaviour {
 
     public void Update()
     {
-        Debug.Log(StartFirst);
-        Debug.Log(ShopFirst);
-        Debug.Log(CreditFirst);
+
     }
 
 

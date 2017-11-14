@@ -17,3 +17,28 @@ Main Menu took 00:00:03.0337529 seconds
 Credits took 00:00:01.7068306 seconds
 Main Menu took 00:00:00.8790116 seconds
 Main Menu took 00:00:05.1043267 seconds
+Main Menu took 00:00:03.6942198 seconds
+Main Menu took 00:00:02.1565705 seconds
+Credits took 00:00:04.9583976 seconds
+Main Menu took 00:00:02.1216119 seconds
+Main Menu took 00:00:01.0131832 seconds
+Main Menu took 00:00:03.6437041 seconds
+Main Menu took 00:00:01.6630270 seconds
+Main Menu took 00:00:01.5366044 seconds
+Main Menu took 00:00:02.8365634 seconds
+Main Menu took 00:00:01.0080474 seconds
+Credits took 00:00:01.9528486 seconds
+Main Menu took 00:00:01.0399324 seconds
+Credits took 00:00:00.6591715 seconds
+Main Menu took 00:00:03.8377458 seconds
+Credits took 00:00:01.1794725 seconds
+Main Menu took 00:00:01.0081083 seconds
+Main Menu took 00:00:01.9686100 seconds
+Main Menu took 00:00:04.1674026 seconds
+Main Menu took 00:00:02.4060077 seconds
+Main Menu took 00:00:00.8960770 seconds
+Credits took 00:00:01.2952581 seconds
+Main Menu took 00:00:06.6349843 seconds
+Main Menu took 00:00:01.0268947 seconds
+Main Menu took 00:00:01.3787406 seconds
+Credits took 00:00:01.4611243 seconds
