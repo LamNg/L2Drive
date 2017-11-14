@@ -9,3 +9,11 @@ CityStory4 took 00:00:01.1245949 seconds
 User chose: Correct Answer
 CityStory5 took 00:00:01.0079995 seconds
 User chose: WrongAnswer2
+Main Menu took 00:00:06.6145430 seconds
+Main Menu took 00:00:01.2270519 seconds
+Credits took 00:00:01.5431794 seconds
+Main Menu took 00:00:03.1183427 seconds
+Main Menu took 00:00:03.0337529 seconds
+Credits took 00:00:01.7068306 seconds
+Main Menu took 00:00:00.8790116 seconds
+Main Menu took 00:00:05.1043267 seconds
