@@ -5,9 +5,13 @@ using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 
 
+
 public class GameManager : MonoBehaviour
 {
 
+
+
+    //store stats
     public Text goldText;
     public static int goldAmount;
     int isFerrariSold;
@@ -21,8 +25,8 @@ public class GameManager : MonoBehaviour
     // Use this for initialization
     void Start()
     {
+
         goldAmount = PlayerPrefs.GetInt("GoldAmount");
-        //goldAmount = 60;
         isFerrariSold = PlayerPrefs.GetInt("IsFerrariSold");
         isFerrariBlueSold = PlayerPrefs.GetInt("IsFerrariBlueSold");
         isFerrariYellowSold = PlayerPrefs.GetInt("IsFerrariYellowSold");
@@ -40,19 +44,6 @@ public class GameManager : MonoBehaviour
         goldText.text = "Gold: " + goldAmount.ToString();
     }
 
+ 
 
-    //add gold for testing
-    //public void AddMoney()
-    //{
-    //    goldAmount += 5;
-    //     Update();
-    // }
-
-
-    //set player gold back to 0 for testing
-    //public void resetPlayerPrefs()
-    //{
-    //   goldAmount = 0;
-    //    PlayerPrefs.DeleteAll();
-    //}
 }
