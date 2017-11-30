@@ -18,6 +18,7 @@ public class ViewModel : MonoBehaviour {
         stopwatch.Start();
     }
 
+
     //when start button is pressed
     public void buttonStartGame() {
         //change scene when pressed
@@ -31,7 +32,13 @@ public class ViewModel : MonoBehaviour {
         timeStamp();
     }
 
-    public void buttonStorySelect()
+    public void buttonLoadNextScene()
+    {
+        //string buttonName = this.name;
+        SceneManager.LoadScene(this.name);
+    }
+
+        public void buttonStorySelect()
     {
         //string buttonName = this.name;
         SceneManager.LoadScene(this.name);

@@ -1,4 +1,8 @@
 Player Selected First: 
+Start: 0 
+Shop: 0
+Credits: 1
+Player Selected First: 
 Start: 1 
 Shop: 0
 Credits: 0

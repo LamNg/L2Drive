@@ -4,6 +4,8 @@ using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 using UnityEngine.EventSystems;
+using System.Diagnostics;
+using System.IO;
 
 public class DialogueManager : MonoBehaviour
 {
@@ -12,6 +14,7 @@ public class DialogueManager : MonoBehaviour
     public Text dialogueText;
 
     public Animator animator;
+    Stopwatch stopwatch = new Stopwatch();
 
     private Queue<string> sentences;
 
@@ -19,6 +22,8 @@ public class DialogueManager : MonoBehaviour
     void Start()
     {
         sentences = new Queue<string>();
+        print("starting timer");
+        stopwatch.Start();
     }
 
     public void StartDialogue(Dialogue dialogue)
@@ -65,6 +70,17 @@ public class DialogueManager : MonoBehaviour
         string buttonName = EventSystem.current.currentSelectedGameObject.name;
         animator.SetBool("IsOpen", false);
         SceneManager.LoadScene(buttonName);
+        timeStamp();
+    }
+
+    public void timeStamp()
+    {
+        string text = SceneManager.GetActiveScene().name + " took " + stopwatch.Elapsed + " seconds";
+        TextWriter textWriter = new StreamWriter(@"textfile.txt", true);
+        textWriter.WriteLine(text);
+        textWriter.Close();
+        print(text);
+        stopwatch.Stop();
     }
 
 }
