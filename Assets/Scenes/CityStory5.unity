@@ -125,7 +125,7 @@ GameObject:
   - component: {fileID: 127598447}
   - component: {fileID: 127598450}
   m_Layer: 5
-  m_Name: WrongAnswer
+  m_Name: CityStory5.5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -190,7 +190,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 127598450}
-        m_MethodName: buttonLose
+        m_MethodName: buttonStorySelect
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -270,7 +270,7 @@ RectTransform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 168916691}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 6.299988, y: 0, z: 0}
+  m_LocalPosition: {x: 6.299988, y: -8.899998, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1899267557}
@@ -278,8 +278,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 6.3, y: 0.0000014305}
-  m_SizeDelta: {x: 686.2, y: 118.6}
+  m_AnchoredPosition: {x: 6.3, y: -8.9}
+  m_SizeDelta: {x: 686.2, y: 100.9}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &168916693
 MonoBehaviour:
@@ -313,8 +313,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: At a yield sign, the driver should analyze the road for other vehicles and
-    pedestrians before proceding
+  m_Text: Look closely at the position of the car in the given illustration
 --- !u!222 &168916694
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -405,7 +404,7 @@ RectTransform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 181957337}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 193, y: 120.5, z: 0}
+  m_LocalPosition: {x: 127.5, y: 79.5, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1981625818}
