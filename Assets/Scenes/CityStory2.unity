@@ -313,8 +313,8 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: At a yield sign, the driver should analyze the road for other vehicles and
-    pedestrians before proceding
+  m_Text: 'At a stop sign, the driver should stop, analyze the road for other vehicles,
+    and if everything is clear, proceed '
 --- !u!222 &168916694
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -405,7 +405,7 @@ RectTransform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 181957337}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 193, y: 120.5, z: 0}
+  m_LocalPosition: {x: 127.5, y: 79.5, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1981625818}
@@ -1971,7 +1971,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Phew, I've made it pass the yeild sign but now I am appraoching a stop sign.
+  m_Text: Phew, I've made it pass the yield sign but now I am appraoching a stop sign.
     It seems like there is no one around...
 --- !u!222 &2009687684
 CanvasRenderer:
