@@ -498,7 +498,7 @@ MonoBehaviour:
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 10
+    m_FontSize: 12
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 0
@@ -509,7 +509,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "-Sound-\nRutgerMuller\nhttps://freesound.org/people/RutgerMuller/sounds/50898/\r\n\nSillyslimeball\nhttps://freesound.org/people/Sillyslimeball/sounds/333575/\r\n\ndominictreis\nhttps://freesound.org/people/dominictreis/sounds/335138/\r\n\nSoundEffectsPodcast_com\nhttps://freesound.org/people/SoundEffectsPodcast_com/sounds/256091/\r\n\nB_Lamerichs\nhttps://freesound.org/people/B_Lamerichs/sounds/264053/\r\n\nInspectorJ\nhttps://freesound.org/people/InspectorJ/sounds/346771/\r\n\nBruno_ph\nhttps://freesound.org/people/Bruno_ph/sounds/150429/\r\n\ncemagar\nhttps://freesound.org/people/cemagar/sounds/120358/\r\n\nSetuniman\nhttps://freesound.org/people/Setuniman/sounds/338377/"
+  m_Text: "\n\ndominictreis\nhttps://freesound.org/people/dominictreis/sounds/335138/\r\n\nSoundEffectsPodcast_com\nhttps://freesound.org/people/SoundEffectsPodcast_com/sounds/256091/\r\n\nB_Lamerichs\nhttps://freesound.org/people/B_Lamerichs/sounds/264053/\r\n\nInspectorJ\nhttps://freesound.org/people/InspectorJ/sounds/346771/\r\n\nBruno_ph\nhttps://freesound.org/people/Bruno_ph/sounds/150429/\r\n\ncemagar\nhttps://freesound.org/people/cemagar/sounds/120358/\r\n\nSetuniman\nhttps://freesound.org/people/Setuniman/sounds/338377/\n\nmojomills\nhttps://freesound.org/people/mojomills/sounds/167534/"
 --- !u!222 &1097430040
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -572,7 +572,7 @@ MonoBehaviour:
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 13
+    m_FontSize: 12
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 0
@@ -583,32 +583,9 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: '-Developers-
-
-    Lam Ng
-
-    Brandon Truong
-
-    Russell Wong
-
-
-    -Art Creators-
-
-    Lam Ng
-
-
-    sheikh_tuhin - qubodup remix (Car)
-
-
-    Rawdanitsu -Speech bubbles https://opengameart.org/content/comic-speech-balloons
-
-
-    pzUH - CuteGirl
-
-    https://opengameart.org/content/cute-girl-free-sprites
-
-
-'
+  m_Text: "-Developers-\nLam Ng\nBrandon Truong\nRussell Wong\n\n-Art Creators-\nLam
+    Ng\n\nsheikh_tuhin - qubodup remix (Car)\n\nRawdanitsu -Speech bubbles https://opengameart.org/content/comic-speech-balloons\n\npzUH
+    - CuteGirl\nhttps://opengameart.org/content/cute-girl-free-sprites\n\n-Sound-\nRutgerMuller\nhttps://freesound.org/people/RutgerMuller/sounds/50898/\r\n\nSillyslimeball\nhttps://freesound.org/people/Sillyslimeball/sounds/333575/\r\n\n"
 --- !u!222 &1136451513
 CanvasRenderer:
   m_ObjectHideFlags: 0
