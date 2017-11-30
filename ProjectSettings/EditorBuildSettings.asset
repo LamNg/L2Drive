@@ -18,10 +18,16 @@ EditorBuildSettings:
     path: Assets/Scenes/CityStory.unity
     guid: d83509f29b905434fa58565cc0649eee
   - enabled: 1
+    path: Assets/Scenes/CityStory1.5.unity
+    guid: bd026409f3fef00458569e3160ecb2f6
+  - enabled: 1
     path: Assets/Scenes/CityStory2.unity
     guid: ad386a8d028fc0a469383cbea8e23e61
   - enabled: 1
     path: Assets/Scenes/CityStory3.unity
+    guid: 5b0deb5ea45e0de449380537ca39ba27
+  - enabled: 1
+    path: Assets/Scenes/CityStory3.5.unity
     guid: f6ee28e074509d643b7dc9aee15f9531
   - enabled: 1
     path: Assets/Scenes/CityStory4.unity
@@ -30,8 +36,14 @@ EditorBuildSettings:
     path: Assets/Scenes/CityStory5.unity
     guid: 164c4d92ed5ea1147b4d9d4504d83505
   - enabled: 1
+    path: Assets/Scenes/CityStory5.5.unity
+    guid: ce27cc106fd7ad744aa68b1fa5d071fd
+  - enabled: 1
     path: Assets/Scenes/CityStory6.unity
     guid: 1803fb2be4e1c0048a7e9644b06462b7
+  - enabled: 1
+    path: Assets/Scenes/CityStory7.unity
+    guid: 635bb6aac1950464889e116f667d1f15
   - enabled: 1
     path: Assets/Scenes/LosingScreen.unity
     guid: 85766fba777da244b95e99bced1d31ca
