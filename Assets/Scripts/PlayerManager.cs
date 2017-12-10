@@ -25,19 +25,16 @@ public class PlayerManager : MonoBehaviour {
         startTime = System.DateTime.UtcNow;
     }
 
-    public void GameLose()
-    {
-        
-    }
-
     public void GameWin()
     {
 
         endTime = System.DateTime.UtcNow;
-        TimeSpan diff = endTime - startTime;
-        int diffSeconds = diff.Seconds;
-        print(diffSeconds + " seconds");
-        print(ScoreCalculation(diffSeconds));
+        TimeSpan diff = endTime - startTime; // calculate time
+        int diffSeconds = diff.Seconds; //calculate time in seconds
+        print(diffSeconds + " seconds"); 
+        int score = ScoreCalculation(diffSeconds); //calculate points
+        print(score);
+        GetComponent<Leaderboard>().CheckForHighScore(score, "TestPlayer");
 
 
     }

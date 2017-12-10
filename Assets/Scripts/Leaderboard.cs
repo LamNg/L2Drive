@@ -6,6 +6,7 @@ using UnityEngine;
 public class Leaderboard : MonoBehaviour {
 
     public Text[] highScores;
+    public Text[] highScoreNamesText;
     int [] highScoreValues;
     string[] highScoreNames;
 
@@ -14,7 +15,7 @@ public class Leaderboard : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
         highScoreValues = new int[highScores.Length];
-        highScoreNames = new string[highScores.Length];
+        highScoreNames = new string[highScoreNamesText.Length];
 
         for (int x = 0; x < highScores.Length; x++)
         {
@@ -46,6 +47,7 @@ public class Leaderboard : MonoBehaviour {
                     highScoreNames[y] = highScoreNames[y - 1];
                 }
                 highScoreValues[x] = value;
+                highScoreNames[x] = username;
                 DrawScores();
                 SaveScores();
                 break;
@@ -57,9 +59,12 @@ public class Leaderboard : MonoBehaviour {
     {
         for (int x = 0; x < highScores.Length; x++)
         {
-            highScores[x].text = highScoreNames[x] + " \t \t \t \t \t \t \t \t \t" + highScoreValues[x].ToString();
+            //highScores[x].text = highScoreNames[x] + "\t" + highScoreValues[x].ToString();
+            highScores[x].text = highScoreValues[x].ToString();
+            highScoreNamesText[x].text = highScoreNames[x];
 
         }
+        //Debug.Log(highScoreValues[4].ToString()); // show value of lowest score person on debug
     }
 
 	// Update is called once per frame
