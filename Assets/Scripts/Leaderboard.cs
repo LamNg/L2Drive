@@ -24,8 +24,9 @@ public class Leaderboard : MonoBehaviour {
 
         }
         DrawScores();
-	}
-	
+
+    }
+
     void SaveScores()
     {
         for (int x = 0; x < highScores.Length; x++)
@@ -55,16 +56,31 @@ public class Leaderboard : MonoBehaviour {
         }
     }
 
+    public bool checkReachtop10(int score)
+    {
+        //prompt for name submission if in top 10 leaderboard
+        if (score > highScoreValues[9])
+        {
+            return true;
+        }
+        return false;
+    }
+
+
+
     void DrawScores()
     {
         for (int x = 0; x < highScores.Length; x++)
         {
-            //highScores[x].text = highScoreNames[x] + "\t" + highScoreValues[x].ToString();
             highScores[x].text = highScoreValues[x].ToString();
             highScoreNamesText[x].text = highScoreNames[x];
 
         }
-        //Debug.Log(highScoreValues[4].ToString()); // show value of lowest score person on debug
+    }
+
+    bool Top5Check()
+    {
+        return false;
     }
 
 	// Update is called once per frame
