@@ -220,8 +220,7 @@ public class ShopManager : MonoBehaviour
     public void resetPlayerPrefs()
     {
         goldAmount = 0;
-        //buyButton.gameObject.SetActive(true);
-        //ferrariPrice.text = "Price: 10 gold";
+
         PlayerPrefs.DeleteAll();
     }
 

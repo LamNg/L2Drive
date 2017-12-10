@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 using System;
 
 public class PlayerManager : MonoBehaviour {
@@ -8,6 +9,8 @@ public class PlayerManager : MonoBehaviour {
     //player stats
     static DateTime startTime;
     static DateTime endTime;
+
+    static bool NewHighScore;
     
     //Stopwatch GameSessionstopwatch = new Stopwatch();
     // Use this for initialization
@@ -34,10 +37,28 @@ public class PlayerManager : MonoBehaviour {
         print(diffSeconds + " seconds"); 
         int score = ScoreCalculation(diffSeconds); //calculate points
         print(score);
-        GetComponent<Leaderboard>().CheckForHighScore(score, "TestPlayer");
+        NewHighScore = GetComponent<Leaderboard>().checkReachtop10(score);
+        if (NewHighScore)
+        {
+            PlayerPrefs.SetInt("ScoreCheck", 1);
+        }
+        else
+        {
+            PlayerPrefs.SetInt("ScoreCheck", 0);
+        }
+        PlayerPrefs.SetInt("CurrentScore", score);
+        //GetComponent<Leaderboard>().CheckForHighScore(score, "Chad");
 
-
+        if (NewHighScore)
+        {
+            Debug.Log("yes this is top 10 material");
+        }
+        else
+        {
+            Debug.Log("NOT EVEN CLOSE BABY");
+        }
     }
+
 
     int ScoreCalculation(int timeInSeconds)
     {

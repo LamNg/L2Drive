@@ -83,3 +83,6 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Tutorial6.unity
     guid: dbc2cb71e7272cd42bd1d041b7517915
+  - enabled: 1
+    path: Assets/Scenes/Highscores.unity
+    guid: aa066de6a551abb4a965a55f863c5a46
