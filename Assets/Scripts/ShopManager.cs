@@ -97,12 +97,12 @@ public class ShopManager : MonoBehaviour
         //setting button availability based on gold amount
 
         //for blue ferrari
-        if (goldAmount >= 10 && isFerrariBlueSold == 0)
+        if (goldAmount >= 60 && isFerrariBlueSold == 0)
             buyButtonBlue.interactable = true;
         else
             buyButtonBlue.interactable = false;
         // for yellow ferrari
-        if (goldAmount >= 10 && isFerrariYellowSold == 0)
+        if (goldAmount >= 120 && isFerrariYellowSold == 0)
             buyButtonYellow.interactable = true;
         else
             buyButtonYellow.interactable = false;
@@ -126,7 +126,7 @@ public class ShopManager : MonoBehaviour
     */
     public void buyFerrariBlue()
     {
-        goldAmount -= 10;
+        goldAmount -= 60;
         PlayerPrefs.SetInt("IsFerrariBlueSold", 1);
         ferrariBluePrice.text = "Sold!";
         buyButtonBlue.interactable = false;
@@ -137,7 +137,7 @@ public class ShopManager : MonoBehaviour
 
     public void buyFerrariYellow()
     {
-        goldAmount -= 10;
+        goldAmount -= 120;
         PlayerPrefs.SetInt("IsFerrariYellowSold", 1);
         ferrariYellowPrice.text = "Sold!";
         buyButtonYellow.interactable = false;

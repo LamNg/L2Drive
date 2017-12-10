@@ -14,14 +14,22 @@ public class submitHighscore : MonoBehaviour {
     public GameObject SubmissionBar;
     public Button TalkToBoss;
 
+    private const string TWITTER_ADDRESS = "http://twitter.com/intent/tweet";
+    private const string TWEET_LANGUAGE = "en";
+    private string MessageSend;
+
+
     // Use this for initialization
     void Start () {
 
         currentScore = PlayerPrefs.GetInt("CurrentScore");
         scoreCheck = PlayerPrefs.GetInt("ScoreCheck");
         Debug.Log(PlayerPrefs.GetInt("CurrentScore") + " THIS IS THE CURRENT SCORE");
-        //if it is a new highscore, prompt the popup screen
 
+        MessageSend = "I just got " + currentScore + " points in L2Drive! Look at how awesome I am!";
+        Debug.Log(MessageSend);
+
+        //if it is a new highscore, prompt the popup screen
         if (scoreCheck == 1)
         {
             SubmissionBar.SetActive(true);
@@ -45,5 +53,13 @@ public class submitHighscore : MonoBehaviour {
         GetComponent<Leaderboard>().CheckForHighScore(currentScore, playerName.text);
         SubmissionBar.SetActive(false);
         TalkToBoss.interactable = true;
+    }
+
+    public void ShareToTwitter(string textToDisplay)
+    {
+        textToDisplay = MessageSend;
+        Application.OpenURL(TWITTER_ADDRESS +
+                    "?text=" + WWW.EscapeURL(textToDisplay) +
+                    "&amp;lang=" + WWW.EscapeURL(TWEET_LANGUAGE));
     }
 }
