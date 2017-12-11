@@ -1,0 +1,15 @@
+<<<<<<< HEAD
+<<<<<<< HEAD
+blankMain Menu took 00:00:12.2550252 seconds
+Main Menu took 00:00:08.7775193 seconds
+Tutorial6 took 00:00:01.5232690 seconds
+Main Menu took 00:00:01.6118149 seconds
+Main Menu took 00:00:01.5049686 seconds
+Main Menu took 00:00:03.3757649 seconds
+Main Menu took 00:01:02.7947471 seconds
+=======
+
+>>>>>>> 80a20e4ae4b4c01cde0933e827dae67dc53def1f
+=======
+
+>>>>>>> 80a20e4ae4b4c01cde0933e827dae67dc53def1f

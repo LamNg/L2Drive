@@ -6,3 +6,31 @@ Player Selected First:
 Start: 1 
 Shop: 0
 Credits: 0
+Player Selected First: 
+Start: 1 
+Shop: 0
+Credits: 0
+Player Selected First: 
+Start: 0 
+Shop: 1
+Credits: 0
+Player Selected First: 
+Start: 1 
+Shop: 1
+Credits: 0
+Player Selected First: 
+Start: 1 
+Shop: 0
+Credits: 0
+Player Selected First: 
+Start: 1 
+Shop: 0
+Credits: 0
+Player Selected First: 
+Start: 1 
+Shop: 0
+Credits: 0
+Player Selected First: 
+Start: 1 
+Shop: 0
+Credits: 0
