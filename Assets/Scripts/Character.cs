@@ -4,7 +4,6 @@ using UnityEngine;
 
 public class Character : MonoBehaviour {
 
-    string characterName = "";
     Sprite characterSprite = null;
     Sprite[] characterStyle = null;
 

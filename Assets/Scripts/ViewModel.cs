@@ -83,6 +83,12 @@ public class ViewModel : MonoBehaviour {
         timeStamp();
     }
 
+    public void buttonHighScores()
+    {
+        SceneManager.LoadScene("Highscores");
+        timeStamp();
+    }
+
     public void timeStamp()
     {
         string text = SceneManager.GetActiveScene().name + " took " + stopwatch.Elapsed + " seconds";

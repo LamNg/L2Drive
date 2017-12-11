@@ -6,6 +6,7 @@ using UnityEngine;
 public class Leaderboard : MonoBehaviour {
 
     public Text[] highScores;
+    public Text[] highScoreNamesText;
     int [] highScoreValues;
     string[] highScoreNames;
 
@@ -14,7 +15,7 @@ public class Leaderboard : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
         highScoreValues = new int[highScores.Length];
-        highScoreNames = new string[highScores.Length];
+        highScoreNames = new string[highScoreNamesText.Length];
 
         for (int x = 0; x < highScores.Length; x++)
         {
@@ -23,8 +24,9 @@ public class Leaderboard : MonoBehaviour {
 
         }
         DrawScores();
-	}
-	
+
+    }
+
     void SaveScores()
     {
         for (int x = 0; x < highScores.Length; x++)
@@ -46,6 +48,7 @@ public class Leaderboard : MonoBehaviour {
                     highScoreNames[y] = highScoreNames[y - 1];
                 }
                 highScoreValues[x] = value;
+                highScoreNames[x] = username;
                 DrawScores();
                 SaveScores();
                 break;
@@ -53,13 +56,31 @@ public class Leaderboard : MonoBehaviour {
         }
     }
 
+    public bool checkReachtop10(int score)
+    {
+        //prompt for name submission if in top 10 leaderboard
+        if (score > highScoreValues[9])
+        {
+            return true;
+        }
+        return false;
+    }
+
+
+
     void DrawScores()
     {
         for (int x = 0; x < highScores.Length; x++)
         {
-            highScores[x].text = highScoreNames[x] + " \t \t \t \t \t \t \t \t \t" + highScoreValues[x].ToString();
+            highScores[x].text = highScoreValues[x].ToString();
+            highScoreNamesText[x].text = highScoreNames[x];
 
         }
+    }
+
+    bool Top5Check()
+    {
+        return false;
     }
 
 	// Update is called once per frame
