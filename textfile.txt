@@ -1,1 +1,9 @@
-test
+testMain Menu took 00:00:08.2364335 seconds
+Intro took 00:00:20.4536492 seconds
+StorySelect took 00:00:07.1493448 seconds
+CityStory took 00:00:10.1209776 seconds
+User chose: Correct Answer
+CityStory2 took 00:00:02.9826471 seconds
+Tutorial6 took 00:00:02.0316190 seconds
+Main Menu took 00:00:01.8324317 seconds
+Main Menu took 00:00:02.5710406 seconds

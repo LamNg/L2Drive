@@ -34,3 +34,19 @@ Player Selected First:
 Start: 1 
 Shop: 0
 Credits: 0
+Player Selected First: 
+Start: 1 
+Shop: 0
+Credits: 0
+Player Selected First: 
+Start: 2 
+Shop: 0
+Credits: 0
+Player Selected First: 
+Start: 2 
+Shop: 1
+Credits: 0
+Player Selected First: 
+Start: 3 
+Shop: 1
+Credits: 0
