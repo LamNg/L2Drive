@@ -1,1 +1,245 @@
 
+Main Menu took 00:00:01.1319249 seconds
+Main Menu took 00:00:00.6319816 seconds
+Intro took 00:00:02.2706113 seconds
+StorySelect took 00:00:01.5985068 seconds
+CityStory took 00:00:01.8580397 seconds
+User chose: Correct Answer
+CityStory2 took 00:00:01.3444882 seconds
+User chose: Correct Answer
+CityStory3 took 00:00:00.2357518 seconds
+User chose: Correct Answer
+CityStory4 took 00:00:00.2161793 seconds
+User chose: Correct Answer
+CityStory5 took 00:00:00.2187558 seconds
+User chose: Correct Answer
+CityStory6 took 00:00:00.7319875 seconds
+User chose: Correct Answer
+CityStory7 took 00:00:00.4534797 seconds
+User chose: Correct Answer
+WinningScreen took 00:00:05.4334711 seconds
+Main Menu took 00:00:00.7328720 seconds
+Intro took 00:00:01.9391111 seconds
+StorySelect took 00:00:00.6321325 seconds
+CityStory took 00:00:00.5166738 seconds
+User chose: Correct Answer
+CityStory2 took 00:00:00.1661277 seconds
+User chose: Correct Answer
+CityStory3 took 00:00:00.1010212 seconds
+User chose: Correct Answer
+CityStory4 took 00:00:00.1192304 seconds
+User chose: Correct Answer
+CityStory5 took 00:00:00.1028974 seconds
+User chose: Correct Answer
+CityStory6 took 00:00:00.0854712 seconds
+User chose: WrongAnswer2
+LosingScreen2 took 00:00:02.6853011 seconds
+Main Menu took 00:00:00.7122178 seconds
+Intro took 00:00:01.6245236 seconds
+StorySelect took 00:00:00.5992349 seconds
+CityStory took 00:00:00.5981007 seconds
+User chose: Correct Answer
+CityStory2 took 00:00:00.2500965 seconds
+User chose: Correct Answer
+CityStory3 took 00:00:00.2001749 seconds
+User chose: Correct Answer
+CityStory4 took 00:00:00.1544264 seconds
+User chose: Correct Answer
+CityStory5 took 00:00:00.1847597 seconds
+User chose: Correct Answer
+CityStory6 took 00:00:00.6489293 seconds
+User chose: Correct Answer
+CityStory7 took 00:00:00.3709896 seconds
+User chose: Correct Answer
+WinningScreen took 00:00:05.4608097 seconds
+Main Menu took 00:00:00.6985285 seconds
+Intro took 00:00:01.8550412 seconds
+StorySelect took 00:00:00.6316008 seconds
+CityStory took 00:00:00.5680736 seconds
+User chose: Correct Answer
+CityStory2 took 00:00:00.2503976 seconds
+User chose: Correct Answer
+CityStory3 took 00:00:00.1847008 seconds
+User chose: Correct Answer
+CityStory4 took 00:00:00.1513845 seconds
+User chose: Correct Answer
+CityStory5 took 00:00:00.2003689 seconds
+User chose: Correct Answer
+CityStory6 took 00:00:00.8300655 seconds
+User chose: Correct Answer
+CityStory7 took 00:00:00.4516613 seconds
+User chose: Correct Answer
+WinningScreen took 00:00:07.5811470 seconds
+Main Menu took 00:00:49.8404177 seconds
+Intro took 00:00:02.0212674 seconds
+StorySelect took 00:00:00.6639029 seconds
+CityStory took 00:00:00.5848306 seconds
+User chose: Correct Answer
+CityStory2 took 00:00:00.2493301 seconds
+User chose: Correct Answer
+CityStory3 took 00:00:00.1015024 seconds
+User chose: Correct Answer
+CityStory4 took 00:00:00.1499654 seconds
+User chose: Correct Answer
+CityStory5 took 00:00:00.1027650 seconds
+User chose: Correct Answer
+CityStory6 took 00:00:00.6493019 seconds
+User chose: Correct Answer
+CityStory7 took 00:00:00.3194084 seconds
+User chose: Correct Answer
+WinningScreen took 00:00:06.0569564 seconds
+Main Menu took 00:00:00.5819877 seconds
+Intro took 00:00:01.7403398 seconds
+StorySelect took 00:00:00.8478942 seconds
+CityStory took 00:00:00.4027423 seconds
+User chose: Correct Answer
+CityStory2 took 00:00:00.2824805 seconds
+User chose: Correct Answer
+CityStory3 took 00:00:00.1851819 seconds
+User chose: Correct Answer
+CityStory4 took 00:00:00.1353722 seconds
+User chose: Correct Answer
+CityStory5 took 00:00:00.1524598 seconds
+User chose: Correct Answer
+CityStory6 took 00:00:01.0803255 seconds
+User chose: Correct Answer
+CityStory7 took 00:00:01.4804028 seconds
+User chose: Correct Answer
+WinningScreen took 00:00:08.7235655 seconds
+Main Menu took 00:00:00.8654831 seconds
+Highscores took 00:00:04.6631630 seconds
+Main Menu took 00:00:01.7929787 seconds
+Highscores took 00:00:01.6280242 seconds
+Main Menu took 00:00:01.4429545 seconds
+Intro took 00:00:01.9227857 seconds
+StorySelect took 00:00:01.1613155 seconds
+CityStory took 00:00:00.5977242 seconds
+User chose: Correct Answer
+CityStory2 took 00:00:00.3501561 seconds
+User chose: Correct Answer
+CityStory3 took 00:00:00.1355914 seconds
+User chose: Correct Answer
+CityStory4 took 00:00:00.1505548 seconds
+User chose: Correct Answer
+CityStory5 took 00:00:00.1523480 seconds
+User chose: Correct Answer
+CityStory6 took 00:00:00.9472253 seconds
+User chose: WrongAnswer
+LosingScreen2 took 00:00:02.6351413 seconds
+Main Menu took 00:00:00.5492315 seconds
+Intro took 00:00:02.6851473 seconds
+StorySelect took 00:00:00.5809448 seconds
+CityStory took 00:00:00.6150429 seconds
+User chose: Correct Answer
+CityStory2 took 00:00:00.3333293 seconds
+User chose: Correct Answer
+CityStory3 took 00:00:00.1507389 seconds
+User chose: Correct Answer
+CityStory4 took 00:00:01.6414310 seconds
+User chose: Correct Answer
+CityStory5 took 00:00:00.3504887 seconds
+User chose: Correct Answer
+CityStory6 took 00:00:00.7661903 seconds
+User chose: Correct Answer
+CityStory7 took 00:00:00.3678620 seconds
+User chose: Correct Answer
+WinningScreen took 00:00:06.5688215 seconds
+Main Menu took 00:00:00.8637559 seconds
+Intro took 00:00:02.3365115 seconds
+StorySelect took 00:00:00.9801999 seconds
+CityStory took 00:00:00.4657515 seconds
+User chose: Correct Answer
+CityStory2 took 00:00:00.2979467 seconds
+User chose: Correct Answer
+CityStory3 took 00:00:00.1852040 seconds
+User chose: Correct Answer
+CityStory4 took 00:00:00.1834583 seconds
+User chose: Correct Answer
+CityStory5 took 00:00:00.1347887 seconds
+User chose: Correct Answer
+CityStory6 took 00:00:00.5177408 seconds
+User chose: Correct Answer
+CityStory7 took 00:00:00.3366663 seconds
+User chose: Correct Answer
+WinningScreen took 00:00:08.0292966 seconds
+Main Menu took 00:00:00.6812458 seconds
+Intro took 00:00:02.2708625 seconds
+StorySelect took 00:00:00.6142513 seconds
+CityStory took 00:00:00.5844086 seconds
+User chose: Correct Answer
+CityStory2 took 00:00:00.2336031 seconds
+User chose: Correct Answer
+CityStory3 took 00:00:00.1356191 seconds
+User chose: Correct Answer
+CityStory4 took 00:00:00.1503644 seconds
+User chose: Correct Answer
+CityStory5 took 00:00:00.1001845 seconds
+User chose: Correct Answer
+CityStory6 took 00:00:00.6669359 seconds
+User chose: Correct Answer
+CityStory7 took 00:00:00.3719663 seconds
+User chose: Correct Answer
+WinningScreen took 00:00:08.0450564 seconds
+Main Menu took 00:00:01.2113295 seconds
+Intro took 00:00:02.0693451 seconds
+StorySelect took 00:00:00.8975937 seconds
+CityStory took 00:00:01.0118685 seconds
+User chose: Correct Answer
+CityStory2 took 00:00:00.2325068 seconds
+User chose: Correct Answer
+CityStory3 took 00:00:00.1513682 seconds
+User chose: Correct Answer
+CityStory4 took 00:00:00.1346125 seconds
+User chose: Correct Answer
+CityStory5 took 00:00:00.1349147 seconds
+User chose: Correct Answer
+CityStory6 took 00:00:00.9968901 seconds
+User chose: Correct Answer
+CityStory7 took 00:00:01.0483144 seconds
+User chose: WrongAnswer
+LosingScreen took 00:00:02.3027068 seconds
+Main Menu took 00:00:00.7145104 seconds
+Intro took 00:00:01.6070508 seconds
+StorySelect took 00:00:00.5645802 seconds
+CityStory took 00:00:00.5171147 seconds
+User chose: Correct Answer
+CityStory2 took 00:00:00.2334609 seconds
+User chose: Correct Answer
+CityStory3 took 00:00:00.1007822 seconds
+User chose: Correct Answer
+CityStory4 took 00:00:00.1334064 seconds
+User chose: Correct Answer
+CityStory5 took 00:00:00.1031225 seconds
+User chose: Correct Answer
+CityStory6 took 00:00:00.7480784 seconds
+User chose: Correct Answer
+CityStory7 took 00:00:00.1722998 seconds
+User chose: Correct Answer
+WinningScreen took 00:00:05.4282993 seconds
+Main Menu took 00:00:00.7169451 seconds
+Highscores took 00:00:05.4859557 seconds
+Main Menu took 00:00:00.7638792 seconds
+Intro took 00:00:02.4713547 seconds
+StorySelect took 00:00:00.7310978 seconds
+CityStory took 00:00:00.7497980 seconds
+User chose: Correct Answer
+CityStory2 took 00:00:00.4819111 seconds
+User chose: Correct Answer
+CityStory3 took 00:00:00.3343461 seconds
+User chose: Correct Answer
+CityStory4 took 00:00:00.3499910 seconds
+User chose: Correct Answer
+CityStory5 took 00:00:00.3341972 seconds
+User chose: Correct Answer
+CityStory6 took 00:00:00.4158730 seconds
+User chose: Correct Answer
+CityStory7 took 00:00:27.6063638 seconds
+User chose: Correct Answer
+WinningScreen took 00:00:23.6694781 seconds
+Main Menu took 00:00:01.0993662 seconds
+Highscores took 00:02:56.1450437 seconds
+Main Menu took 00:00:00.6981761 seconds
+Main Menu took 00:00:03.5039911 seconds
+Main Menu took 00:00:01.1896667 seconds
+Main Menu took 00:00:01.2865319 seconds
+Main Menu took 00:00:01.8802189 seconds
