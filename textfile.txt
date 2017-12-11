@@ -1,4 +1,3 @@
-
 Main Menu took 00:00:01.1319249 seconds
 Main Menu took 00:00:00.6319816 seconds
 Intro took 00:00:02.2706113 seconds
